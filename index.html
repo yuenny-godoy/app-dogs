@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Dogs</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta name="description" content="">
+  <meta name="author" content="">
+</head>
+
+<body>
+  <div id="sidebar" class="menu-collapsed">
+    <div id="header">
+      <div id="title">
+        <span><b>App Dogs</b></span>
+      </div>
+      <div id="menu-sidebar">
+        <div class="btn-hamburger"></div>
+        <div class="btn-hamburger"></div>
+        <div class="btn-hamburger"></div>
+      </div>
+    </div>
+    <div id="menu-items">
+      <div class="item">
+        <a href="#">
+          <div class="icon">
+            <img src="images/icons/dogs.png" alt="" />
+          </div>
+          <div class="title">
+            <span>Perros</span>
+          </div>
+        </a>
+      </div>
+      <div class="separator">
+      </div>
+      <div class="item">
+        <a href="#">
+          <div class="icon">
+            <img src="images/icons/owers.png" alt="" />
+          </div>
+          <div class="title">
+            <span>Dueños</span>
+          </div>
+        </a>
+      </div>
+      <div class="separator">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="main">
+    <div class="container" style="margin-top: 2%;">
+      <section>
+        <form>
+          <h4>
+            <b>
+              Agregar Perro
+            </b>
+          </h4>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Nombre: </label>
+              <input class="u-full-width" type="text" placeholder="Ej. Boby" id="exampleEmailInput">
+            </div>
+            <div class="six columns">
+              <label for="exampleRecipientInput">Raza:</label>
+              <select class="u-full-width" id="exampleRecipientInput">
+                <option value="American bully">American bully</option>
+                <option value="American english coonhound">American english coonhound</option>
+                <option value="Basenji">Basenji</option>
+                <option value="Poochon">Poochon</option>
+                <option value="Labsky o huskador">Labsky o huskador</option>
+                <option value="Cuvac eslovaco">Cuvac eslovaco</option>
+                <option value="Shepsky">Shepsky</option>
+                <option value="Caniche gigante o poodle estándar">Caniche gigante o poodle estándar</option>
+                <option value="Pastor leonés">Pastor leonés</option>
+                <option value="Barbet o perro de agua francés">Barbet o perro de agua francés</option>
+                <option value="Presa canario o dogo canario">Presa canario o dogo canario</option>
+                <option value="Calupoh o perro lobo mexicano">Calupoh o perro lobo mexicano</option>
+                <option value="Mastín inglés o mastiff">Mastín inglés o mastiff</option>
+                <option value="Springel spaniel inglés">Springel spaniel inglés</option>
+                <option value="Pug o carlino">Pug o carlino</option>
+                <option value="Rottweiler">Rottweiler</option>
+                <option value="Husky siberiano">Husky siberiano</option>
+                <option value="Jack russell terrier">Jack russell terrier</option>
+                <option value="Akita Americano">Akita Americano</option>
+                <option value="Bernedoodle">Bernedoodle</option>
+                <option value="Pastor belga malinois">Pastor belga malinois</option>
+                <option value="Perro leopardo de catahoula">Perro leopardo de catahoula</option>
+                <option value="Kerry blue terrier">Kerry blue terrier</option>
+                <option value="Pastor de los Cárpatos">Pastor de los Cárpatos</option>
+                <option value="Jack russell terrier">Jack russell terrier</option>
+                <option value="Chihuahua">Chihuahua</option>
+                <option value="Mucuchíes">Mucuchíes</option>
+                <option value="Pachón navarro">Pachón navarro</option>
+                <option value="Zuchón o shichón">Zuchón o shichón</option>
+                <option value="Chodsky o pastor bohemio">Chodsky o pastor bohemio</option>
+                <option value="Golden retriever o cobrador dorado">Golden retriever o cobrador dorado</option>
+                <option value="Shikoku inu">Shikoku inu</option>
+                <option value="Cimarrón uruguayo">Cimarrón uruguayo</option>
+                <option value="Kishu inu o kishu ken">Kishu inu o kishu ken</option>
+                <option value="Shorkie">Shorkie</option>
+                <option value="Pinscher alemán">Pinscher alemán</option>
+                <option value="Border collie">Border collie</option>
+                <option value="Frenchton">Frenchton</option>
+                <option value="Goldador o golden lab">Goldador o golden lab</option>
+                <option value="Teddy roosevelt terrier">Teddy roosevelt terrier</option>
+                <option value="Perro pastor croata">Perro pastor croata</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+          <div class="two columns">
+          <label for="exampleMessage">Edad:</label>
+          <input class="u-full-width" type="number" placeholder="0" id="exampleMessage">
+          </div>
+          <div class="two columns">
+            <label for="exampleMessage">Peso:</label>
+            <input class="u-full-width" type="number" placeholder="0" id="exampleMessage">
+            </div>
+            <div class="eight columns">
+              <label for="exampleMessage">Dueño:</label>
+              <input class="u-full-width" type="text" placeholder="Ej. Andy" id="exampleMessage">
+              </div>
+         </div>
+          <input class="button-primary" type="submit" value="Guardar">
+        </form>
+
+
+      </section>
+      <div class="row">
+        <div class="one-half column" style="margin-top: 2%">
+          <h4>
+            <b>
+              Listado de Perros
+            </b>
+          </h4>
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Raza</th>
+                <th>Edad</th>
+                <th>Peso</th>
+                <th>Dueño</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Koulan</td>
+                <td>American bully</td>
+                <td>1</td>
+                <td>40 kilos</td>
+                <td>Alejandro</td>
+              </tr>
+              <tr>
+                <td>Nala</td>
+                <td>Pit bull</td>
+                <td>5</td>
+                <td>25 kilos</td>
+                <td>Adolfo</td>
+              </tr>
+              <tr>
+                <td>Drago</td>
+                <td>Rottweiler</td>
+                <td>3</td>
+                <td>40 kilos</td>
+                <td>Alexander</td>
+              </tr>
+              <tr>
+                <td>Kratos</td>
+                <td>Bulldogs</td>
+                <td>2</td>
+                <td>25 kilos</td>
+                <td>Edinson</td>
+              </tr>
+              <tr>
+                <td>Kira</td>
+                <td>Pastor alemán</td>
+                <td>7</td>
+                <td>35 kilos </td>
+                <td>Jesús</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts.js">
+
+  </script>
+</body>
+
+</html>
